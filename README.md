@@ -3,7 +3,10 @@
 nimhq is a HQ Trivia API wrapper written in nim.
 
 ### Usage
-
+Install the package with `nimble`
+```nim
+nimble install nimhq
+```
 To use nimhq, you must import both `nimhq` and `json`
 ```nim
 import nimhq, json
